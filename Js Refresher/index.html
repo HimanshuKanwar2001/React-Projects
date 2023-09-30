@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h1>I am Learning Js</h1>
+        
+        <script>
+            // let a=34;
+            // let a="this is me";
+            let a =45+3;
+            // Number
+            // Object
+            // booleans-true and false
+            // String
+            // undefined
+            // null
+            
+            function hello(){
+                console.log("hey Himanshu");
+            }
+            hello();
+
+            obj1={
+                h:"this is new",
+                i:"Learning something new",
+                func:function add(number){
+                    console.log("the following number is to be added  " + number);
+                }
+            }
+            document.addEventListener("click",function click(){
+                console.log("this function is clicked");
+                alert("Clicked");
+            });
+            let conf=confirm("are you ready to learn it");
+            console.log(conf);
+            console.log(obj1);
+            console.log(obj1.h);
+            console.log(obj1.i);
+            console.log(obj1.func(23));
+            console.log(a);
+        </script>
+    </body>
+</html>
